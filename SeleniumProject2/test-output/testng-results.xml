@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Report Configuration]]>
+    </line>
+    <line>
+      <![CDATA[======createContactTest=========]]>
+    </line>
+    <line>
+      <![CDATA[=====createContactTest=====END=====]]>
+    </line>
+    <line>
+      <![CDATA[======createContactWithOrgTest=========]]>
+    </line>
+    <line>
+      <![CDATA[=====createContactWithOrgTest=====END=====]]>
+    </line>
+    <line>
+      <![CDATA[======createContactWithSupportDateTest=========]]>
+    </line>
+    <line>
+      <![CDATA[=====createContactWithSupportDateTest=====END=====]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-11-03T00:02:58 IST" name="Create_Contact_Test" finished-at="2026-11-03T00:03:42 IST" duration-ms="44557">
+    <groups>
+    </groups>
+    <test started-at="2026-11-03T00:02:58 IST" name="Test" finished-at="2026-11-03T00:03:42 IST" duration-ms="44557">
+      <class name="Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg@771a660]" started-at="2026-11-03T00:02:16 IST" name="configBS" finished-at="2026-11-03T00:02:58 IST" duration-ms="42332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg@771a660]" started-at="2026-11-03T00:02:58 IST" name="configBC" finished-at="2026-11-03T00:03:00 IST" duration-ms="2041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg@771a660]" started-at="2026-11-03T00:03:00 IST" name="configBM" finished-at="2026-11-03T00:03:05 IST" duration-ms="5480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactTest()[pri:0, instance:Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg@771a660]" started-at="2026-11-03T00:03:05 IST" name="createContactTest" finished-at="2026-11-03T00:03:13 IST" duration-ms="7898" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[======createContactTest=========]]>
+            </line>
+            <line>
+              <![CDATA[=====createContactTest=====END=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg@771a660]" started-at="2026-11-03T00:03:13 IST" name="configAM" finished-at="2026-11-03T00:03:19 IST" duration-ms="5208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg@771a660]" started-at="2026-11-03T00:03:19 IST" name="configBM" finished-at="2026-11-03T00:03:22 IST" duration-ms="3532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactWithOrgTest()[pri:0, instance:Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg@771a660]" started-at="2026-11-03T00:03:22 IST" name="createContactWithOrgTest" finished-at="2026-11-03T00:03:33 IST" duration-ms="10620" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[======createContactWithOrgTest=========]]>
+            </line>
+            <line>
+              <![CDATA[=====createContactWithOrgTest=====END=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrgTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg@771a660]" started-at="2026-11-03T00:03:33 IST" name="configAM" finished-at="2026-11-03T00:03:34 IST" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg@771a660]" started-at="2026-11-03T00:03:34 IST" name="configBM" finished-at="2026-11-03T00:03:34 IST" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactWithSupportDateTest()[pri:0, instance:Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg@771a660]" started-at="2026-11-03T00:03:34 IST" name="createContactWithSupportDateTest" finished-at="2026-11-03T00:03:40 IST" duration-ms="5542" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[======createContactWithSupportDateTest=========]]>
+            </line>
+            <line>
+              <![CDATA[=====createContactWithSupportDateTest=====END=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactWithSupportDateTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg@771a660]" started-at="2026-11-03T00:03:40 IST" name="configAM" finished-at="2026-11-03T00:03:41 IST" duration-ms="835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg@771a660]" started-at="2026-11-03T00:03:41 IST" name="configAC" finished-at="2026-11-03T00:03:42 IST" duration-ms="1566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg@771a660]" started-at="2026-11-03T00:03:42 IST" name="configAS" finished-at="2026-11-03T00:03:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- Com.selenium.project.ContactTest_Testng.Create_Contact_Test_TestNg -->
+    </test> <!-- Test -->
+  </suite> <!-- Create_Contact_Test -->
+</testng-results>
