@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">164,714</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TodoistEndToEnd.Test.TaskUpdateSearchEndToEndTest</td><td><a href="#m0">verifyUpdatedTaskNameReflectsInSearch</a></td><td rowspan="1">1782285231169</td><td rowspan="1">33954</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TodoistEndToEnd.Test.DashboardAccessAfterLogoutEndToEndTest</td><td><a href="#m1">verifyDashboardAccessIsRestrictedAfterLogout</a></td><td rowspan="1">1782285196886</td><td rowspan="1">18334</td></tr><tr class="passedodd"><td rowspan="1">TodoistEndToEnd.Test.TaskCreationInsideProjectEndToEndTest</td><td><a href="#m2">verifyTaskIsLinkedToSelectedProject</a></td><td rowspan="1">1782285306491</td><td rowspan="1">6641</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">TodoistEndToEnd.Test.TaskUpdateSearchEndToEndTest#verifyUpdatedTaskNameReflectsInSearch</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">===== TASK UPDATE + SEARCH E2E TEST STARTED =====<br/>Reading test data from Excel<br/>Original Task Name: Attend sprint meeting1782285233869<br/>Description: Discuss automation smoke status<br/>Updated Task Name: Attend regression meeting1782285234281<br/>Verifying dashboard after login<br/>Checking Inbox/Dashboard is displayed<br/>Dashboard verified successfully<br/>Opening existing Todoist project<br/>Clicking Todoist Project<br/>Todoist project opened successfully<br/>Creating new task<br/>Clicking Add Task button<br/>Entering task name: Attend sprint meeting1782285233869<br/>Entering description<br/>Task name and description entered successfully<br/>Task name and description entered successfully<br/>Clicking Add Task button<br/>Saving task<br/>Task saved successfully<br/>Task save action completed<br/>Capturing task creation toaster message<br/>Capturing toaster message<br/>Task Creation Toaster Message: Sanjayh2901999
+Add task
+Search
+Inbox
+24
+Today
+Upcoming
+Filters & Labels
+Reporting
+My Projects
+Todoist
+8
+Marcos
+Help & resources
+My Projects
+/
+Todoist
+Share
+Display
+Task: 
+Attend sprint meeting1782283578594
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782283660214
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782283746075
+Discuss automation smoke status
+Task: 
+Attend sprint meeting1782284149496
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284830764
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284892586
+D
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284939712
+D
+Task: 
+Attend sprint meeting1782285233869
+Discuss automation smoke status
+
+
+Date
+Attachment
+Priority
+Reminders
+Todoist
+Cancel
+Add task
+Task added to Todoist
+Open<br/>Task creation verified successfully<br/>Opening Search for original task<br/>Opening Search using keyboard shortcut<br/>ESC pressed to close active Todoist panel<br/>CTRL + K pressed to open Search<br/>Search opened successfully using keyboard shortcut<br/>Searching original task: Attend sprint meeting1782285233869<br/>Searching task: Attend sprint meeting1782285233869<br/>Task name entered in search field using Actions class<br/>Enter key pressed<br/>Original task name entered in search field<br/>Verifying original task appears in search result<br/>Checking task in search result: Attend sprint meeting1782285233869<br/>Original task displayed in search result<br/>Opening original task from search result<br/>Opening task from search result: Attend sprint meeting1782285233869<br/>Task opened from search result: Attend sprint meeting1782285233869<br/>Original task opened successfully<br/>Updating task name<br/>Updating task name from: Attend sprint meeting1782285233869 to: Attend regression meeting1782285234281<br/>Task title double clicked for editing<br/>Updated task name entered and saved</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //*[contains(normalize-space(),&apos;Attend regression meeting1782285234281&apos;)], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(normalize-space(),&apos;Attend regression meeting1782285234281&apos;)]&quot;}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\SANJAY\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49690}, goog:processID: 32184, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49690/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7770006c96126d876e94941ed06cdb60
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Com.Todosit.ObjectRepository.TodoistObjectRepository.updateTaskName(TodoistObjectRepository.java:554)
+	at TodoistEndToEnd.Test.TaskUpdateSearchEndToEndTest.verifyUpdatedTaskNameReflectsInSearch(TaskUpdateSearchEndToEndTest.java:146)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TodoistEndToEnd.Test.DashboardAccessAfterLogoutEndToEndTest#verifyDashboardAccessIsRestrictedAfterLogout</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">===== LOGOUT + SECURITY E2E TEST STARTED =====<br/>Verifying dashboard is displayed after login<br/>Checking Inbox/Dashboard is displayed<br/>Dashboard displayed successfully<br/>Capturing dashboard URL<br/>Captured Dashboard URL: https://app.todoist.com/app/today<br/>Logging out from application<br/>Clicking Settings<br/>Checking CDN fallback overlay<br/>Clicking Logout<br/>Waiting until user redirects to login page<br/>Logout completed and login page displayed<br/>Logout completed successfully<br/>Verifying user is redirected to login page after logout<br/>Verifying Login page is displayed<br/>Login page displayed successfully after logout<br/>Entering captured dashboard URL after logout<br/>Dashboard URL entered after logout<br/>Current URL after entering dashboard URL: https://app.todoist.com/app/today<br/>Verifying application restricts dashboard access after logout<br/>Verifying Login page is displayed<br/>Login page displayed after trying to access dashboard URL<br/>Dashboard access is restricted after logout<br/>===== LOGOUT + SECURITY E2E TEST PASSED =====</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TodoistEndToEnd.Test.TaskCreationInsideProjectEndToEndTest#verifyTaskIsLinkedToSelectedProject</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">===== TASK CREATION INSIDE EXISTING PROJECT E2E TEST STARTED =====<br/>Reading task data from Excel<br/>Generated Task Name: Attend sprint meeting1782285306538<br/>Description: Discuss automation smoke status<br/>Verifying dashboard after login<br/>Checking Inbox/Dashboard is displayed<br/>Dashboard verified successfully<br/>Opening existing Todoist project<br/>Clicking Todoist Project<br/>Existing Todoist project opened successfully<br/>Creating task inside existing project<br/>Clicking Add Task button<br/>Entering task name: Attend sprint meeting1782285306538<br/>Entering description<br/>Task name and description entered successfully<br/>Task name and description entered successfully<br/>Clicking Add Task button<br/>Saving task<br/>Task saved successfully<br/>Task save action completed<br/>Capturing toaster message<br/>Capturing toaster message<br/>Actual Toaster Message: Sanjayh2901999
+Add task
+Search
+Inbox
+24
+Today
+Upcoming
+Filters & Labels
+Reporting
+My Projects
+Todoist
+9
+Marcos
+Help & resources
+My Projects
+/
+Todoist
+Share
+Display
+Task: 
+Attend sprint meeting1782283578594
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782283660214
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782283746075
+Discuss automation smoke status
+Task: 
+Attend sprint meeting1782284149496
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284830764
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284892586
+D
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284939712
+D
+Task: 
+Attend sprint meeting1782285233869
+Discuss automation smoke status
+Task: 
+Attend sprint meeting1782285306538
+D
+
+
+Date
+Attachment
+Priority
+Reminders
+Todoist
+Cancel
+Add task
+Task added to Todoist
+Open<br/>Validating task creation toaster message<br/>Task added toaster message verified successfully<br/>Verifying created task appears inside existing project<br/>Checking task inside project list: Attend sprint meeting1782285306538<br/>Task found inside project list: Attend sprint meeting1782285306538<br/>Created task is displayed inside existing Todoist project<br/>===== TASK CREATION INSIDE EXISTING PROJECT E2E TEST PASSED =====</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

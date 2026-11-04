@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="2" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[=== Report Configuration ===]]>
+    </line>
+    <line>
+      <![CDATA[=== Launch Browser ===]]>
+    </line>
+    <line>
+      <![CDATA[Application Opened]]>
+    </line>
+    <line>
+      <![CDATA[=== Login Started ===]]>
+    </line>
+    <line>
+      <![CDATA[Entering username]]>
+    </line>
+    <line>
+      <![CDATA[Entering password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Login button]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[===== LOGOUT + SECURITY E2E TEST STARTED =====]]>
+    </line>
+    <line>
+      <![CDATA[Verifying dashboard is displayed after login]]>
+    </line>
+    <line>
+      <![CDATA[Checking Inbox/Dashboard is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Dashboard displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Capturing dashboard URL]]>
+    </line>
+    <line>
+      <![CDATA[Captured Dashboard URL: https://app.todoist.com/app/today]]>
+    </line>
+    <line>
+      <![CDATA[Logging out from application]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Settings]]>
+    </line>
+    <line>
+      <![CDATA[Checking CDN fallback overlay]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Logout]]>
+    </line>
+    <line>
+      <![CDATA[Waiting until user redirects to login page]]>
+    </line>
+    <line>
+      <![CDATA[Logout completed and login page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Logout completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Verifying user is redirected to login page after logout]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login page displayed successfully after logout]]>
+    </line>
+    <line>
+      <![CDATA[Entering captured dashboard URL after logout]]>
+    </line>
+    <line>
+      <![CDATA[Dashboard URL entered after logout]]>
+    </line>
+    <line>
+      <![CDATA[Current URL after entering dashboard URL: https://app.todoist.com/app/today]]>
+    </line>
+    <line>
+      <![CDATA[Verifying application restricts dashboard access after logout]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login page displayed after trying to access dashboard URL]]>
+    </line>
+    <line>
+      <![CDATA[Dashboard access is restricted after logout]]>
+    </line>
+    <line>
+      <![CDATA[===== LOGOUT + SECURITY E2E TEST PASSED =====]]>
+    </line>
+    <line>
+      <![CDATA[=== Logout Started ===]]>
+    </line>
+    <line>
+      <![CDATA[User already logged out]]>
+    </line>
+    <line>
+      <![CDATA[=== Close Browser ===]]>
+    </line>
+    <line>
+      <![CDATA[=== Launch Browser ===]]>
+    </line>
+    <line>
+      <![CDATA[Application Opened]]>
+    </line>
+    <line>
+      <![CDATA[=== Login Started ===]]>
+    </line>
+    <line>
+      <![CDATA[Entering username]]>
+    </line>
+    <line>
+      <![CDATA[Entering password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Login button]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[===== TASK UPDATE + SEARCH E2E TEST STARTED =====]]>
+    </line>
+    <line>
+      <![CDATA[Reading test data from Excel]]>
+    </line>
+    <line>
+      <![CDATA[Original Task Name: Attend sprint meeting1782285233869]]>
+    </line>
+    <line>
+      <![CDATA[Description: Discuss automation smoke status]]>
+    </line>
+    <line>
+      <![CDATA[Updated Task Name: Attend regression meeting1782285234281]]>
+    </line>
+    <line>
+      <![CDATA[Verifying dashboard after login]]>
+    </line>
+    <line>
+      <![CDATA[Checking Inbox/Dashboard is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Dashboard verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening existing Todoist project]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Todoist Project]]>
+    </line>
+    <line>
+      <![CDATA[Todoist project opened successfully]]>
+    </line>
+    <line>
+      <![CDATA[Creating new task]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Add Task button]]>
+    </line>
+    <line>
+      <![CDATA[Entering task name: Attend sprint meeting1782285233869]]>
+    </line>
+    <line>
+      <![CDATA[Entering description]]>
+    </line>
+    <line>
+      <![CDATA[Task name and description entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Task name and description entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Add Task button]]>
+    </line>
+    <line>
+      <![CDATA[Saving task]]>
+    </line>
+    <line>
+      <![CDATA[Task saved successfully]]>
+    </line>
+    <line>
+      <![CDATA[Task save action completed]]>
+    </line>
+    <line>
+      <![CDATA[Capturing task creation toaster message]]>
+    </line>
+    <line>
+      <![CDATA[Capturing toaster message]]>
+    </line>
+    <line>
+      <![CDATA[Task Creation Toaster Message: Sanjayh2901999
+Add task
+Search
+Inbox
+24
+Today
+Upcoming
+Filters & Labels
+Reporting
+My Projects
+Todoist
+8
+Marcos
+Help & resources
+My Projects
+/
+Todoist
+Share
+Display
+Task: 
+Attend sprint meeting1782283578594
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782283660214
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782283746075
+Discuss automation smoke status
+Task: 
+Attend sprint meeting1782284149496
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284830764
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284892586
+D
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284939712
+D
+Task: 
+Attend sprint meeting1782285233869
+Discuss automation smoke status
+
+
+Date
+Attachment
+Priority
+Reminders
+Todoist
+Cancel
+Add task
+Task added to Todoist
+Open]]>
+    </line>
+    <line>
+      <![CDATA[Task creation verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening Search for original task]]>
+    </line>
+    <line>
+      <![CDATA[Opening Search using keyboard shortcut]]>
+    </line>
+    <line>
+      <![CDATA[ESC pressed to close active Todoist panel]]>
+    </line>
+    <line>
+      <![CDATA[CTRL + K pressed to open Search]]>
+    </line>
+    <line>
+      <![CDATA[Search opened successfully using keyboard shortcut]]>
+    </line>
+    <line>
+      <![CDATA[Searching original task: Attend sprint meeting1782285233869]]>
+    </line>
+    <line>
+      <![CDATA[Searching task: Attend sprint meeting1782285233869]]>
+    </line>
+    <line>
+      <![CDATA[Task name entered in search field using Actions class]]>
+    </line>
+    <line>
+      <![CDATA[Enter key pressed]]>
+    </line>
+    <line>
+      <![CDATA[Original task name entered in search field]]>
+    </line>
+    <line>
+      <![CDATA[Verifying original task appears in search result]]>
+    </line>
+    <line>
+      <![CDATA[Checking task in search result: Attend sprint meeting1782285233869]]>
+    </line>
+    <line>
+      <![CDATA[Original task displayed in search result]]>
+    </line>
+    <line>
+      <![CDATA[Opening original task from search result]]>
+    </line>
+    <line>
+      <![CDATA[Opening task from search result: Attend sprint meeting1782285233869]]>
+    </line>
+    <line>
+      <![CDATA[Task opened from search result: Attend sprint meeting1782285233869]]>
+    </line>
+    <line>
+      <![CDATA[Original task opened successfully]]>
+    </line>
+    <line>
+      <![CDATA[Updating task name]]>
+    </line>
+    <line>
+      <![CDATA[Updating task name from: Attend sprint meeting1782285233869 to: Attend regression meeting1782285234281]]>
+    </line>
+    <line>
+      <![CDATA[Task title double clicked for editing]]>
+    </line>
+    <line>
+      <![CDATA[Updated task name entered and saved]]>
+    </line>
+    <line>
+      <![CDATA[=== Logout Started ===]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login page not displayed: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='email']'
+(tried for 15 seconds with 500 milliseconds interval)]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Settings]]>
+    </line>
+    <line>
+      <![CDATA[Checking CDN fallback overlay]]>
+    </line>
+    <line>
+      <![CDATA[Logout failed : element click intercepted: Element <button aria-expanded="false" aria-haspopup="menu" aria-label="Settings" class="_19abae45 _56a651f6 _3930afa0 aa19cb97 _7246d092" id=":r0:" type="button" aria-disabled="false" style="padding-right: 0px;">...</button> is not clickable at point (90, 28). Other element would receive the click: <div class="popper__overlay" data-testid="popper__overlay" role="presentation" data-popper-modal="true" data-popper-reference-hidden="false">...</div>
+  (Session info: chrome=149.0.7827.103)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7770006c96126d876e94941ed06cdb60, clickElement {id=f.5BD678B18AAD1F5AEAF809860F2D0F6E.d.37C098B058BF39725D081D5FCA166539.e.175}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\SANJAY\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49690}, goog:processID: 32184, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49690/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7770006c96126d876e94941ed06cdb60)] -> xpath: //button[@aria-label='Settings']]
+Session ID: 7770006c96126d876e94941ed06cdb60]]>
+    </line>
+    <line>
+      <![CDATA[=== Close Browser ===]]>
+    </line>
+    <line>
+      <![CDATA[=== Launch Browser ===]]>
+    </line>
+    <line>
+      <![CDATA[Application Opened]]>
+    </line>
+    <line>
+      <![CDATA[=== Login Started ===]]>
+    </line>
+    <line>
+      <![CDATA[Entering username]]>
+    </line>
+    <line>
+      <![CDATA[Entering password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Login button]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[===== TASK CREATION INSIDE EXISTING PROJECT E2E TEST STARTED =====]]>
+    </line>
+    <line>
+      <![CDATA[Reading task data from Excel]]>
+    </line>
+    <line>
+      <![CDATA[Generated Task Name: Attend sprint meeting1782285306538]]>
+    </line>
+    <line>
+      <![CDATA[Description: Discuss automation smoke status]]>
+    </line>
+    <line>
+      <![CDATA[Verifying dashboard after login]]>
+    </line>
+    <line>
+      <![CDATA[Checking Inbox/Dashboard is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Dashboard verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening existing Todoist project]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Todoist Project]]>
+    </line>
+    <line>
+      <![CDATA[Existing Todoist project opened successfully]]>
+    </line>
+    <line>
+      <![CDATA[Creating task inside existing project]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Add Task button]]>
+    </line>
+    <line>
+      <![CDATA[Entering task name: Attend sprint meeting1782285306538]]>
+    </line>
+    <line>
+      <![CDATA[Entering description]]>
+    </line>
+    <line>
+      <![CDATA[Task name and description entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Task name and description entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Add Task button]]>
+    </line>
+    <line>
+      <![CDATA[Saving task]]>
+    </line>
+    <line>
+      <![CDATA[Task saved successfully]]>
+    </line>
+    <line>
+      <![CDATA[Task save action completed]]>
+    </line>
+    <line>
+      <![CDATA[Capturing toaster message]]>
+    </line>
+    <line>
+      <![CDATA[Capturing toaster message]]>
+    </line>
+    <line>
+      <![CDATA[Actual Toaster Message: Sanjayh2901999
+Add task
+Search
+Inbox
+24
+Today
+Upcoming
+Filters & Labels
+Reporting
+My Projects
+Todoist
+9
+Marcos
+Help & resources
+My Projects
+/
+Todoist
+Share
+Display
+Task: 
+Attend sprint meeting1782283578594
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782283660214
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782283746075
+Discuss automation smoke status
+Task: 
+Attend sprint meeting1782284149496
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284830764
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284892586
+D
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284939712
+D
+Task: 
+Attend sprint meeting1782285233869
+Discuss automation smoke status
+Task: 
+Attend sprint meeting1782285306538
+D
+
+
+Date
+Attachment
+Priority
+Reminders
+Todoist
+Cancel
+Add task
+Task added to Todoist
+Open]]>
+    </line>
+    <line>
+      <![CDATA[Validating task creation toaster message]]>
+    </line>
+    <line>
+      <![CDATA[Task added toaster message verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Verifying created task appears inside existing project]]>
+    </line>
+    <line>
+      <![CDATA[Checking task inside project list: Attend sprint meeting1782285306538]]>
+    </line>
+    <line>
+      <![CDATA[Task found inside project list: Attend sprint meeting1782285306538]]>
+    </line>
+    <line>
+      <![CDATA[Created task is displayed inside existing Todoist project]]>
+    </line>
+    <line>
+      <![CDATA[===== TASK CREATION INSIDE EXISTING PROJECT E2E TEST PASSED =====]]>
+    </line>
+    <line>
+      <![CDATA[=== Logout Started ===]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login page not displayed: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='email']'
+(tried for 15 seconds with 500 milliseconds interval)]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Settings]]>
+    </line>
+    <line>
+      <![CDATA[Checking CDN fallback overlay]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Logout]]>
+    </line>
+    <line>
+      <![CDATA[Waiting until user redirects to login page]]>
+    </line>
+    <line>
+      <![CDATA[Logout completed and login page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successful]]>
+    </line>
+    <line>
+      <![CDATA[=== Close Browser ===]]>
+    </line>
+    <line>
+      <![CDATA[=== Report Backup ===]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-06-24T12:43:09 IST" name="Suite" finished-at="2026-06-24T12:45:53 IST" duration-ms="164714">
+    <groups>
+    </groups>
+    <test started-at="2026-06-24T12:43:09 IST" name="Test" finished-at="2026-06-24T12:45:53 IST" duration-ms="164714">
+      <class name="TodoistEndToEnd.Test.TaskUpdateSearchEndToEndTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TodoistEndToEnd.Test.TaskUpdateSearchEndToEndTest@5e600dd5]" started-at="2026-06-24T12:43:45 IST" name="launchBrowser" finished-at="2026-06-24T12:43:48 IST" duration-ms="2958" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Launch Browser ===]]>
+            </line>
+            <line>
+              <![CDATA[Application Opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TodoistEndToEnd.Test.TaskUpdateSearchEndToEndTest@5e600dd5]" started-at="2026-06-24T12:43:48 IST" name="loginToApplication" finished-at="2026-06-24T12:43:51 IST" duration-ms="2687" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Login Started ===]]>
+            </line>
+            <line>
+              <![CDATA[Entering username]]>
+            </line>
+            <line>
+              <![CDATA[Entering password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Login button]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyUpdatedTaskNameReflectsInSearch()[pri:0, instance:TodoistEndToEnd.Test.TaskUpdateSearchEndToEndTest@5e600dd5]" started-at="2026-06-24T12:43:51 IST" name="verifyUpdatedTaskNameReflectsInSearch" finished-at="2026-06-24T12:44:25 IST" duration-ms="33954" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element found by By.xpath: //*[contains(normalize-space(),'Attend regression meeting1782285234281')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(normalize-space(),'Attend regression meeting1782285234281')]"}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\SANJAY\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49690}, goog:processID: 32184, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49690/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7770006c96126d876e94941ed06cdb60]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //*[contains(normalize-space(),'Attend regression meeting1782285234281')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(normalize-space(),'Attend regression meeting1782285234281')]"}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\SANJAY\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49690}, goog:processID: 32184, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49690/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7770006c96126d876e94941ed06cdb60
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at Com.Todosit.ObjectRepository.TodoistObjectRepository.updateTaskName(TodoistObjectRepository.java:554)
+at TodoistEndToEnd.Test.TaskUpdateSearchEndToEndTest.verifyUpdatedTaskNameReflectsInSearch(TaskUpdateSearchEndToEndTest.java:146)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[===== TASK UPDATE + SEARCH E2E TEST STARTED =====]]>
+            </line>
+            <line>
+              <![CDATA[Reading test data from Excel]]>
+            </line>
+            <line>
+              <![CDATA[Original Task Name: Attend sprint meeting1782285233869]]>
+            </line>
+            <line>
+              <![CDATA[Description: Discuss automation smoke status]]>
+            </line>
+            <line>
+              <![CDATA[Updated Task Name: Attend regression meeting1782285234281]]>
+            </line>
+            <line>
+              <![CDATA[Verifying dashboard after login]]>
+            </line>
+            <line>
+              <![CDATA[Checking Inbox/Dashboard is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Dashboard verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[Opening existing Todoist project]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Todoist Project]]>
+            </line>
+            <line>
+              <![CDATA[Todoist project opened successfully]]>
+            </line>
+            <line>
+              <![CDATA[Creating new task]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Add Task button]]>
+            </line>
+            <line>
+              <![CDATA[Entering task name: Attend sprint meeting1782285233869]]>
+            </line>
+            <line>
+              <![CDATA[Entering description]]>
+            </line>
+            <line>
+              <![CDATA[Task name and description entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Task name and description entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Add Task button]]>
+            </line>
+            <line>
+              <![CDATA[Saving task]]>
+            </line>
+            <line>
+              <![CDATA[Task saved successfully]]>
+            </line>
+            <line>
+              <![CDATA[Task save action completed]]>
+            </line>
+            <line>
+              <![CDATA[Capturing task creation toaster message]]>
+            </line>
+            <line>
+              <![CDATA[Capturing toaster message]]>
+            </line>
+            <line>
+              <![CDATA[Task Creation Toaster Message: Sanjayh2901999
+Add task
+Search
+Inbox
+24
+Today
+Upcoming
+Filters & Labels
+Reporting
+My Projects
+Todoist
+8
+Marcos
+Help & resources
+My Projects
+/
+Todoist
+Share
+Display
+Task: 
+Attend sprint meeting1782283578594
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782283660214
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782283746075
+Discuss automation smoke status
+Task: 
+Attend sprint meeting1782284149496
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284830764
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284892586
+D
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284939712
+D
+Task: 
+Attend sprint meeting1782285233869
+Discuss automation smoke status
+
+
+Date
+Attachment
+Priority
+Reminders
+Todoist
+Cancel
+Add task
+Task added to Todoist
+Open]]>
+            </line>
+            <line>
+              <![CDATA[Task creation verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[Opening Search for original task]]>
+            </line>
+            <line>
+              <![CDATA[Opening Search using keyboard shortcut]]>
+            </line>
+            <line>
+              <![CDATA[ESC pressed to close active Todoist panel]]>
+            </line>
+            <line>
+              <![CDATA[CTRL + K pressed to open Search]]>
+            </line>
+            <line>
+              <![CDATA[Search opened successfully using keyboard shortcut]]>
+            </line>
+            <line>
+              <![CDATA[Searching original task: Attend sprint meeting1782285233869]]>
+            </line>
+            <line>
+              <![CDATA[Searching task: Attend sprint meeting1782285233869]]>
+            </line>
+            <line>
+              <![CDATA[Task name entered in search field using Actions class]]>
+            </line>
+            <line>
+              <![CDATA[Enter key pressed]]>
+            </line>
+            <line>
+              <![CDATA[Original task name entered in search field]]>
+            </line>
+            <line>
+              <![CDATA[Verifying original task appears in search result]]>
+            </line>
+            <line>
+              <![CDATA[Checking task in search result: Attend sprint meeting1782285233869]]>
+            </line>
+            <line>
+              <![CDATA[Original task displayed in search result]]>
+            </line>
+            <line>
+              <![CDATA[Opening original task from search result]]>
+            </line>
+            <line>
+              <![CDATA[Opening task from search result: Attend sprint meeting1782285233869]]>
+            </line>
+            <line>
+              <![CDATA[Task opened from search result: Attend sprint meeting1782285233869]]>
+            </line>
+            <line>
+              <![CDATA[Original task opened successfully]]>
+            </line>
+            <line>
+              <![CDATA[Updating task name]]>
+            </line>
+            <line>
+              <![CDATA[Updating task name from: Attend sprint meeting1782285233869 to: Attend regression meeting1782285234281]]>
+            </line>
+            <line>
+              <![CDATA[Task title double clicked for editing]]>
+            </line>
+            <line>
+              <![CDATA[Updated task name entered and saved]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUpdatedTaskNameReflectsInSearch -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:TodoistEndToEnd.Test.TaskUpdateSearchEndToEndTest@5e600dd5]" started-at="2026-06-24T12:44:25 IST" name="logoutFromApplication" finished-at="2026-06-24T12:44:56 IST" duration-ms="31810" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Logout Started ===]]>
+            </line>
+            <line>
+              <![CDATA[Verifying Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login page not displayed: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='email']'
+(tried for 15 seconds with 500 milliseconds interval)]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Settings]]>
+            </line>
+            <line>
+              <![CDATA[Checking CDN fallback overlay]]>
+            </line>
+            <line>
+              <![CDATA[Logout failed : element click intercepted: Element <button aria-expanded="false" aria-haspopup="menu" aria-label="Settings" class="_19abae45 _56a651f6 _3930afa0 aa19cb97 _7246d092" id=":r0:" type="button" aria-disabled="false" style="padding-right: 0px;">...</button> is not clickable at point (90, 28). Other element would receive the click: <div class="popper__overlay" data-testid="popper__overlay" role="presentation" data-popper-modal="true" data-popper-reference-hidden="false">...</div>
+  (Session info: chrome=149.0.7827.103)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7770006c96126d876e94941ed06cdb60, clickElement {id=f.5BD678B18AAD1F5AEAF809860F2D0F6E.d.37C098B058BF39725D081D5FCA166539.e.175}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.103, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\SANJAY\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49690}, goog:processID: 32184, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49690/devtoo..., se:cdpVersion: 149.0.7827.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7770006c96126d876e94941ed06cdb60)] -> xpath: //button[@aria-label='Settings']]
+Session ID: 7770006c96126d876e94941ed06cdb60]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TodoistEndToEnd.Test.TaskUpdateSearchEndToEndTest@5e600dd5]" started-at="2026-06-24T12:44:56 IST" name="closeBrowser" finished-at="2026-06-24T12:44:58 IST" duration-ms="1764" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Close Browser ===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TodoistEndToEnd.Test.TaskUpdateSearchEndToEndTest -->
+      <class name="TodoistEndToEnd.Test.DashboardAccessAfterLogoutEndToEndTest">
+        <test-method is-config="true" signature="configureReport()[pri:0, instance:TodoistEndToEnd.Test.DashboardAccessAfterLogoutEndToEndTest@3527942a]" started-at="2026-06-24T12:43:09 IST" name="configureReport" finished-at="2026-06-24T12:43:09 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Report Configuration ===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configureReport -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TodoistEndToEnd.Test.DashboardAccessAfterLogoutEndToEndTest@3527942a]" started-at="2026-06-24T12:43:09 IST" name="launchBrowser" finished-at="2026-06-24T12:43:14 IST" duration-ms="4918" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Launch Browser ===]]>
+            </line>
+            <line>
+              <![CDATA[Application Opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TodoistEndToEnd.Test.DashboardAccessAfterLogoutEndToEndTest@3527942a]" started-at="2026-06-24T12:43:14 IST" name="loginToApplication" finished-at="2026-06-24T12:43:16 IST" duration-ms="2639" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Login Started ===]]>
+            </line>
+            <line>
+              <![CDATA[Entering username]]>
+            </line>
+            <line>
+              <![CDATA[Entering password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Login button]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyDashboardAccessIsRestrictedAfterLogout()[pri:0, instance:TodoistEndToEnd.Test.DashboardAccessAfterLogoutEndToEndTest@3527942a]" started-at="2026-06-24T12:43:16 IST" name="verifyDashboardAccessIsRestrictedAfterLogout" finished-at="2026-06-24T12:43:35 IST" duration-ms="18334" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[===== LOGOUT + SECURITY E2E TEST STARTED =====]]>
+            </line>
+            <line>
+              <![CDATA[Verifying dashboard is displayed after login]]>
+            </line>
+            <line>
+              <![CDATA[Checking Inbox/Dashboard is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Dashboard displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Capturing dashboard URL]]>
+            </line>
+            <line>
+              <![CDATA[Captured Dashboard URL: https://app.todoist.com/app/today]]>
+            </line>
+            <line>
+              <![CDATA[Logging out from application]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Settings]]>
+            </line>
+            <line>
+              <![CDATA[Checking CDN fallback overlay]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Logout]]>
+            </line>
+            <line>
+              <![CDATA[Waiting until user redirects to login page]]>
+            </line>
+            <line>
+              <![CDATA[Logout completed and login page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Logout completed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Verifying user is redirected to login page after logout]]>
+            </line>
+            <line>
+              <![CDATA[Verifying Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login page displayed successfully after logout]]>
+            </line>
+            <line>
+              <![CDATA[Entering captured dashboard URL after logout]]>
+            </line>
+            <line>
+              <![CDATA[Dashboard URL entered after logout]]>
+            </line>
+            <line>
+              <![CDATA[Current URL after entering dashboard URL: https://app.todoist.com/app/today]]>
+            </line>
+            <line>
+              <![CDATA[Verifying application restricts dashboard access after logout]]>
+            </line>
+            <line>
+              <![CDATA[Verifying Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login page displayed after trying to access dashboard URL]]>
+            </line>
+            <line>
+              <![CDATA[Dashboard access is restricted after logout]]>
+            </line>
+            <line>
+              <![CDATA[===== LOGOUT + SECURITY E2E TEST PASSED =====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardAccessIsRestrictedAfterLogout -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:TodoistEndToEnd.Test.DashboardAccessAfterLogoutEndToEndTest@3527942a]" started-at="2026-06-24T12:43:35 IST" name="logoutFromApplication" finished-at="2026-06-24T12:43:35 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Logout Started ===]]>
+            </line>
+            <line>
+              <![CDATA[User already logged out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TodoistEndToEnd.Test.DashboardAccessAfterLogoutEndToEndTest@3527942a]" started-at="2026-06-24T12:43:35 IST" name="closeBrowser" finished-at="2026-06-24T12:43:45 IST" duration-ms="10242" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Close Browser ===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="backupReport()[pri:0, instance:TodoistEndToEnd.Test.DashboardAccessAfterLogoutEndToEndTest@3527942a]" started-at="2026-06-24T12:45:53 IST" name="backupReport" finished-at="2026-06-24T12:45:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Report Backup ===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- backupReport -->
+      </class> <!-- TodoistEndToEnd.Test.DashboardAccessAfterLogoutEndToEndTest -->
+      <class name="TodoistEndToEnd.Test.TaskCreationInsideProjectEndToEndTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TodoistEndToEnd.Test.TaskCreationInsideProjectEndToEndTest@576d5deb]" started-at="2026-06-24T12:44:58 IST" name="launchBrowser" finished-at="2026-06-24T12:45:04 IST" duration-ms="5935" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Launch Browser ===]]>
+            </line>
+            <line>
+              <![CDATA[Application Opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TodoistEndToEnd.Test.TaskCreationInsideProjectEndToEndTest@576d5deb]" started-at="2026-06-24T12:45:04 IST" name="loginToApplication" finished-at="2026-06-24T12:45:06 IST" duration-ms="1825" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Login Started ===]]>
+            </line>
+            <line>
+              <![CDATA[Entering username]]>
+            </line>
+            <line>
+              <![CDATA[Entering password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Login button]]>
+            </line>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyTaskIsLinkedToSelectedProject()[pri:0, instance:TodoistEndToEnd.Test.TaskCreationInsideProjectEndToEndTest@576d5deb]" started-at="2026-06-24T12:45:06 IST" name="verifyTaskIsLinkedToSelectedProject" finished-at="2026-06-24T12:45:13 IST" duration-ms="6641" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[===== TASK CREATION INSIDE EXISTING PROJECT E2E TEST STARTED =====]]>
+            </line>
+            <line>
+              <![CDATA[Reading task data from Excel]]>
+            </line>
+            <line>
+              <![CDATA[Generated Task Name: Attend sprint meeting1782285306538]]>
+            </line>
+            <line>
+              <![CDATA[Description: Discuss automation smoke status]]>
+            </line>
+            <line>
+              <![CDATA[Verifying dashboard after login]]>
+            </line>
+            <line>
+              <![CDATA[Checking Inbox/Dashboard is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Dashboard verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[Opening existing Todoist project]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Todoist Project]]>
+            </line>
+            <line>
+              <![CDATA[Existing Todoist project opened successfully]]>
+            </line>
+            <line>
+              <![CDATA[Creating task inside existing project]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Add Task button]]>
+            </line>
+            <line>
+              <![CDATA[Entering task name: Attend sprint meeting1782285306538]]>
+            </line>
+            <line>
+              <![CDATA[Entering description]]>
+            </line>
+            <line>
+              <![CDATA[Task name and description entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Task name and description entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Add Task button]]>
+            </line>
+            <line>
+              <![CDATA[Saving task]]>
+            </line>
+            <line>
+              <![CDATA[Task saved successfully]]>
+            </line>
+            <line>
+              <![CDATA[Task save action completed]]>
+            </line>
+            <line>
+              <![CDATA[Capturing toaster message]]>
+            </line>
+            <line>
+              <![CDATA[Capturing toaster message]]>
+            </line>
+            <line>
+              <![CDATA[Actual Toaster Message: Sanjayh2901999
+Add task
+Search
+Inbox
+24
+Today
+Upcoming
+Filters & Labels
+Reporting
+My Projects
+Todoist
+9
+Marcos
+Help & resources
+My Projects
+/
+Todoist
+Share
+Display
+Task: 
+Attend sprint meeting1782283578594
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782283660214
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782283746075
+Discuss automation smoke status
+Task: 
+Attend sprint meeting1782284149496
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284830764
+Discuss automation smoke status
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284892586
+D
+Date: 
+Saturday
+Task: 
+Attend sprint meeting1782284939712
+D
+Task: 
+Attend sprint meeting1782285233869
+Discuss automation smoke status
+Task: 
+Attend sprint meeting1782285306538
+D
+
+
+Date
+Attachment
+Priority
+Reminders
+Todoist
+Cancel
+Add task
+Task added to Todoist
+Open]]>
+            </line>
+            <line>
+              <![CDATA[Validating task creation toaster message]]>
+            </line>
+            <line>
+              <![CDATA[Task added toaster message verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[Verifying created task appears inside existing project]]>
+            </line>
+            <line>
+              <![CDATA[Checking task inside project list: Attend sprint meeting1782285306538]]>
+            </line>
+            <line>
+              <![CDATA[Task found inside project list: Attend sprint meeting1782285306538]]>
+            </line>
+            <line>
+              <![CDATA[Created task is displayed inside existing Todoist project]]>
+            </line>
+            <line>
+              <![CDATA[===== TASK CREATION INSIDE EXISTING PROJECT E2E TEST PASSED =====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTaskIsLinkedToSelectedProject -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:TodoistEndToEnd.Test.TaskCreationInsideProjectEndToEndTest@576d5deb]" started-at="2026-06-24T12:45:13 IST" name="logoutFromApplication" finished-at="2026-06-24T12:45:47 IST" duration-ms="34848" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Logout Started ===]]>
+            </line>
+            <line>
+              <![CDATA[Verifying Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Login page not displayed: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@type='email']'
+(tried for 15 seconds with 500 milliseconds interval)]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Settings]]>
+            </line>
+            <line>
+              <![CDATA[Checking CDN fallback overlay]]>
+            </line>
+            <line>
+              <![CDATA[Clicking Logout]]>
+            </line>
+            <line>
+              <![CDATA[Waiting until user redirects to login page]]>
+            </line>
+            <line>
+              <![CDATA[Logout completed and login page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TodoistEndToEnd.Test.TaskCreationInsideProjectEndToEndTest@576d5deb]" started-at="2026-06-24T12:45:47 IST" name="closeBrowser" finished-at="2026-06-24T12:45:53 IST" duration-ms="5958" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Close Browser ===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TodoistEndToEnd.Test.TaskCreationInsideProjectEndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
